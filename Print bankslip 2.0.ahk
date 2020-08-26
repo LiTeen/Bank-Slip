@@ -11,7 +11,7 @@ ifWinExist, deposit_format.xlsx
 }
 else
 {
-	Run GET YPUR PATH\deposit_format.xlsx
+	Run GET YOUR PATH\deposit_format.xlsx
 	WinActivate, deposit_format.xlsx
 	return
 }
